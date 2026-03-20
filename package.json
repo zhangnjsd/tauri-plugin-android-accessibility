@@ -1,8 +1,23 @@
 {
   "name": "tauri-plugin-android-accessiblity-api",
   "version": "0.1.0",
-  "author": "You",
-  "description": "",
+  "author": "ShizukuAqua",
+  "description": "A Tauri plugin that supports Android accessibility features, allowing Tauri applications to interact with Android's accessibility services for enhanced functionality and user experience.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangnjsd/tauri-plugin-android-accessiblity.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhangnjsd/tauri-plugin-android-accessiblity/issues"
+  },
+  "homepage": "https://github.com/zhangnjsd/tauri-plugin-android-accessiblity#readme",
+  "keywords": [
+    "tauri",
+    "tauri-plugin",
+    "android",
+    "accessibility"
+  ],
   "type": "module",
   "types": "./dist-js/index.d.ts",
   "main": "./dist-js/index.cjs",
@@ -18,8 +33,8 @@
   ],
   "scripts": {
     "build": "rollup -c",
-    "prepublishOnly": "pnpm build",
-    "pretest": "pnpm build"
+    "prepublishOnly": "bun run build",
+    "pretest": "bun run build"
   },
   "dependencies": {
     "@tauri-apps/api": "^2.0.0"
