@@ -26,6 +26,14 @@ Implementation entry points:
 
 ## 2. Usage in Tauri App
 
+Directly add:
+
+```bash
+bun tauri add android-accessibility
+```
+
+Or add it manually as follows：
+
 Register the plugin on the application side:
 
 ```rust

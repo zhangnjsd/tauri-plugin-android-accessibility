@@ -24,6 +24,14 @@
 
 ## 2. 在 Tauri App 中使用
 
+直接添加：
+
+```bash
+bun tauri add android-accessibility
+```
+
+或 按照以下方式手动添加：
+
 在应用端注册插件：
 
 ```rust
